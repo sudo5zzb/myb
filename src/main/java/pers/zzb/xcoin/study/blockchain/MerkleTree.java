@@ -54,11 +54,6 @@ public class MerkleTree {
         return merkleRoot.hash;
     }
 
-    public static void main(String[] args) {
-        List<String> datas=Lists.newArrayList("a","b","c","d","e");
-        MerkleTree merkleTree = new MerkleTree(datas);
-        System.out.println(merkleTree.getRootHash());
-    }
 }
 
 
